@@ -115,10 +115,12 @@ namespace GraphicsEditor1
             _figureProperties.brushcolor = Color.White;
             _figureProperties.dashstyle = DashStyle.Solid;
             _figureProperties.fill = false;
-            _figureProperties.linecolor = Color.Black;            
-            
+            _figureProperties.linecolor = Color.Black;
+
             //BrushType.SelectedIndex = 0;
             //lineStyleBox.SelectedIndex = 0;
+
+            this.KeyPreview = true;
         }
 
         /// <summary>
@@ -725,6 +727,51 @@ namespace GraphicsEditor1
             HistoryForm.DisplayListActions(_workspace.ReturnListActions());
             HistoryForm.ShowDialog();
             HistoryForm.Dispose();
+        }
+
+        /// <summary>
+        /// Метод, отвечающий за использование горячих клавиш.
+        /// </summary>
+        /// <param name="sender">Переменная, хранящая объект.</param>
+        /// <param name="e">Переменная, хранящая информацию о мыши.</param>
+        private void Canva_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Shift && e.KeyCode == Keys.Z)
+            {
+                btnUnDo.PerformClick();
+            }
+            if (e.Shift && e.KeyCode == Keys.X)
+            {
+                btnReDo.PerformClick();
+            }
+            if (e.KeyCode == Keys.L)
+            {
+                btnLine.PerformClick();
+            }
+            if (e.KeyCode == Keys.R)
+            {
+                btnRectangle.PerformClick();
+            }
+            if (e.KeyCode == Keys.E)
+            {
+                btnEllipse.PerformClick();
+            }
+            if (e.KeyCode == Keys.G)
+            {
+                btnPolygon.PerformClick();
+            }
+            if (e.KeyCode == Keys.P)
+            {
+                btnPolyline.PerformClick();
+            }
+            if (e.KeyCode == Keys.M)
+            {
+                btnRectangularBox.PerformClick();
+            }
+            if (e.KeyCode == Keys.M)
+            {
+                btnMouseClick.PerformClick();
+            }
         }
     }
 }

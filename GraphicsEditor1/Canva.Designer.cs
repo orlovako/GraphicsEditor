@@ -92,7 +92,7 @@
             this.toolStrip3.Location = new System.Drawing.Point(0, 28);
             this.toolStrip3.Name = "toolStrip3";
             this.toolStrip3.Padding = new System.Windows.Forms.Padding(0, 29, 1, 0);
-            this.toolStrip3.Size = new System.Drawing.Size(25, 642);
+            this.toolStrip3.Size = new System.Drawing.Size(40, 642);
             this.toolStrip3.TabIndex = 11;
             this.toolStrip3.Text = "toolStrip3";
             // 
@@ -102,7 +102,7 @@
             this.btnMouseClick.Image = ((System.Drawing.Image)(resources.GetObject("btnMouseClick.Image")));
             this.btnMouseClick.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnMouseClick.Name = "btnMouseClick";
-            this.btnMouseClick.Size = new System.Drawing.Size(22, 24);
+            this.btnMouseClick.Size = new System.Drawing.Size(37, 24);
             this.btnMouseClick.Text = "Mouse";
             this.btnMouseClick.Click += new System.EventHandler(this.btnMouseClick_Click);
             // 
@@ -207,21 +207,25 @@
             // saveAsToolStripMenuItem
             // 
             this.saveAsToolStripMenuItem.Name = "saveAsToolStripMenuItem";
-            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(167, 26);
+            this.saveAsToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
+            | System.Windows.Forms.Keys.S)));
+            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(225, 26);
             this.saveAsToolStripMenuItem.Text = "Save As";
             this.saveAsToolStripMenuItem.Click += new System.EventHandler(this.saveAsToolStripMenuItem_Click);
             // 
             // newEXsaveToolStripMenuItem
             // 
             this.newEXsaveToolStripMenuItem.Name = "newEXsaveToolStripMenuItem";
-            this.newEXsaveToolStripMenuItem.Size = new System.Drawing.Size(167, 26);
+            this.newEXsaveToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
+            this.newEXsaveToolStripMenuItem.Size = new System.Drawing.Size(225, 26);
             this.newEXsaveToolStripMenuItem.Text = "Save Project";
             this.newEXsaveToolStripMenuItem.Click += new System.EventHandler(this.newEXsaveToolStripMenuItem_Click);
             // 
             // newEXopenToolStripMenuItem
             // 
             this.newEXopenToolStripMenuItem.Name = "newEXopenToolStripMenuItem";
-            this.newEXopenToolStripMenuItem.Size = new System.Drawing.Size(167, 26);
+            this.newEXopenToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
+            this.newEXopenToolStripMenuItem.Size = new System.Drawing.Size(225, 26);
             this.newEXopenToolStripMenuItem.Text = "Open";
             this.newEXopenToolStripMenuItem.Click += new System.EventHandler(this.newEXopenToolStripMenuItem_Click);
             // 
@@ -246,28 +250,32 @@
             // copyToolStripMenuItem
             // 
             this.copyToolStripMenuItem.Name = "copyToolStripMenuItem";
-            this.copyToolStripMenuItem.Size = new System.Drawing.Size(128, 26);
+            this.copyToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
+            this.copyToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
             this.copyToolStripMenuItem.Text = "Copy";
             this.copyToolStripMenuItem.Click += new System.EventHandler(this.copyToolStripMenuItem_Click);
             // 
             // cutToolStripMenuItem
             // 
             this.cutToolStripMenuItem.Name = "cutToolStripMenuItem";
-            this.cutToolStripMenuItem.Size = new System.Drawing.Size(128, 26);
+            this.cutToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.Delete;
+            this.cutToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
             this.cutToolStripMenuItem.Text = "Delete";
             this.cutToolStripMenuItem.Click += new System.EventHandler(this.cutToolStripMenuItem_Click);
             // 
             // insertToolStripMenuItem
             // 
             this.insertToolStripMenuItem.Name = "insertToolStripMenuItem";
-            this.insertToolStripMenuItem.Size = new System.Drawing.Size(128, 26);
+            this.insertToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.V)));
+            this.insertToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
             this.insertToolStripMenuItem.Text = "Insert";
             this.insertToolStripMenuItem.Click += new System.EventHandler(this.insertToolStripMenuItem_Click);
             // 
             // cutToolStripMenuItem1
             // 
             this.cutToolStripMenuItem1.Name = "cutToolStripMenuItem1";
-            this.cutToolStripMenuItem1.Size = new System.Drawing.Size(128, 26);
+            this.cutToolStripMenuItem1.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.X)));
+            this.cutToolStripMenuItem1.Size = new System.Drawing.Size(216, 26);
             this.cutToolStripMenuItem1.Text = "Cut";
             this.cutToolStripMenuItem1.Click += new System.EventHandler(this.cutToolStripMenuItem1_Click);
             // 
@@ -282,7 +290,8 @@
             // clearToolStripMenuItem
             // 
             this.clearToolStripMenuItem.Name = "clearToolStripMenuItem";
-            this.clearToolStripMenuItem.Size = new System.Drawing.Size(118, 26);
+            this.clearToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Delete)));
+            this.clearToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
             this.clearToolStripMenuItem.Text = "Clear";
             this.clearToolStripMenuItem.Click += new System.EventHandler(this.clearToolStripMenuItem_Click);
             // 
@@ -469,6 +478,7 @@
             this.MinimumSize = new System.Drawing.Size(1099, 717);
             this.Name = "Canva";
             this.Text = "Form1";
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Canva_KeyDown);
             this.toolStrip3.ResumeLayout(false);
             this.toolStrip3.PerformLayout();
             this.menuStrip1.ResumeLayout(false);
