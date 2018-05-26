@@ -1,0 +1,16 @@
+c:\users\ksusha-plusha\source\repos\GraphicsEditor1\DataFigure\bin\Debug\DataFigure.dll
+c:\users\ksusha-plusha\source\repos\GraphicsEditor1\DataFigure\bin\Debug\DataFigure.pdb
+c:\users\ksusha-plusha\source\repos\GraphicsEditor1\DataFigure\bin\Debug\nunit.framework.dll
+c:\users\ksusha-plusha\source\repos\GraphicsEditor1\DataFigure\bin\Debug\nunit.framework.pdb
+c:\users\ksusha-plusha\source\repos\GraphicsEditor1\DataFigure\bin\Debug\nunit.framework.xml
+c:\users\ksusha-plusha\source\repos\GraphicsEditor1\DataFigure\obj\Debug\DataFigure.csprojResolveAssemblyReference.cache
+c:\users\ksusha-plusha\source\repos\GraphicsEditor1\DataFigure\obj\Debug\DataFigure.csproj.CoreCompileInputs.cache
+c:\users\ksusha-plusha\source\repos\GraphicsEditor1\DataFigure\obj\Debug\DataFigure.csproj.CopyComplete
+c:\users\ksusha-plusha\source\repos\GraphicsEditor1\DataFigure\obj\Debug\DataFigure.dll
+c:\users\ksusha-plusha\source\repos\GraphicsEditor1\DataFigure\obj\Debug\DataFigure.pdb
+c:\users\ksusha-plusha\source\repos\GraphicsEditor1\DataFigure\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+c:\users\ksusha-plusha\source\repos\GraphicsEditor1\DataFigure\bin\Debug\Microsoft.Practices.Unity.dll
+c:\users\ksusha-plusha\source\repos\GraphicsEditor1\DataFigure\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+c:\users\ksusha-plusha\source\repos\GraphicsEditor1\DataFigure\bin\Debug\Microsoft.Practices.Unity.xml
+c:\users\ksusha-plusha\source\repos\GraphicsEditor1\DataFigure\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+c:\users\ksusha-plusha\source\repos\GraphicsEditor1\DataFigure\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml

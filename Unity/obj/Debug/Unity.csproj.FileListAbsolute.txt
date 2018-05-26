@@ -1,0 +1,17 @@
+c:\users\ksusha-plusha\source\repos\GraphicsEditor1\Unity\bin\Debug\Unity.dll
+c:\users\ksusha-plusha\source\repos\GraphicsEditor1\Unity\bin\Debug\Unity.pdb
+c:\users\ksusha-plusha\source\repos\GraphicsEditor1\Unity\bin\Debug\CommonServiceLocator.dll
+c:\users\ksusha-plusha\source\repos\GraphicsEditor1\Unity\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+c:\users\ksusha-plusha\source\repos\GraphicsEditor1\Unity\bin\Debug\Microsoft.Practices.Unity.dll
+c:\users\ksusha-plusha\source\repos\GraphicsEditor1\Unity\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+c:\users\ksusha-plusha\source\repos\GraphicsEditor1\Unity\bin\Debug\nunit.framework.dll
+c:\users\ksusha-plusha\source\repos\GraphicsEditor1\Unity\bin\Debug\Microsoft.Practices.Unity.xml
+c:\users\ksusha-plusha\source\repos\GraphicsEditor1\Unity\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+c:\users\ksusha-plusha\source\repos\GraphicsEditor1\Unity\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+c:\users\ksusha-plusha\source\repos\GraphicsEditor1\Unity\bin\Debug\nunit.framework.pdb
+c:\users\ksusha-plusha\source\repos\GraphicsEditor1\Unity\bin\Debug\nunit.framework.xml
+c:\users\ksusha-plusha\source\repos\GraphicsEditor1\Unity\obj\Debug\Unity.csprojResolveAssemblyReference.cache
+c:\users\ksusha-plusha\source\repos\GraphicsEditor1\Unity\obj\Debug\Unity.csproj.CoreCompileInputs.cache
+c:\users\ksusha-plusha\source\repos\GraphicsEditor1\Unity\obj\Debug\Unity.csproj.CopyComplete
+c:\users\ksusha-plusha\source\repos\GraphicsEditor1\Unity\obj\Debug\Unity.dll
+c:\users\ksusha-plusha\source\repos\GraphicsEditor1\Unity\obj\Debug\Unity.pdb
